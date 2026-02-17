@@ -1,0 +1,14 @@
+# Java
+**/target/
+**/.mvn/
+**/*.jar
+
+# Node
+**/node_modules/
+**/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
