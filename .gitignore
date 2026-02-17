@@ -3,6 +3,7 @@
 **/.mvn/
 **/*.jar
 
+application.properties
 # Node
 **/node_modules/
 **/dist/
