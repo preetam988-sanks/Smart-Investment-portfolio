@@ -1,0 +1,201 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.auth-container {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.auth-card {
+    background: #ffffff;
+    padding: 45px 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.auth-card h2 {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #111827;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 28px;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    background: #f9fafb;
+}
+
+.auth-card input:focus {
+    border-color: #4f46e5;
+    background: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.15);
+}
+
+.auth-card button {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg, #4f46e5, #4338ca);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.auth-card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(67, 56, 202, 0.3);
+}
+
+.redirect {
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.redirect a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.redirect a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}html, body, #root {
+     height: 100%;
+     margin: 0;
+ }
+
+.auth-container {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.auth-card {
+    background: #ffffff;
+    padding: 45px 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.auth-card h2 {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #111827;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 28px;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    background: #f9fafb;
+}
+
+.auth-card input:focus {
+    border-color: #4f46e5;
+    background: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.15);
+}
+
+.auth-card button {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg, #4f46e5, #4338ca);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.auth-card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(67, 56, 202, 0.3);
+}
+
+.redirect {
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.redirect a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.redirect a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
